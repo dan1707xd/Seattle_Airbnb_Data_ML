@@ -20,7 +20,7 @@ The 2 of interest for our analysis are the 'listings' and 'calendar'. For more i
 The analysis conducted in this notebook focusses primarily on data wrangling techniques. The work done encompasses everything from: <br />
 1. Dealing with NaNs : when is it acceptable to drop features, impute nulls with the mode or mean depending on the feature dataset and the question we are trying to answer. How to make sure we get most value out of missing values<br />
 2. Dealing with categorical variables of varying complexities: Applying the get_dummies method to simple cases and working through intricacies where the categories are in list form <br />
-4. Dealing with severely askew features <br />
+4. Dealing with severely skewed features <br />
 3. Use correlation techniques (heatmap, groupby) and regression to look at the performance metric of interest.<br />
 In our case we look at the following questions:
 Assume one is new to the real estate business in Seattle and is looking to buy properties and list them on the Airbnb marketplace:
@@ -31,7 +31,7 @@ apartments might do better in a zipcode close to downtown where night life is mo
 3. In Seattle, which factors overall are good for revenue? Here, a prediction based (regression) method will be applied to model revenue. 
 Finally, the features that dominate that model will be of interest. The analysis that follows in the notebook attempts to best answer these questions dispassionately whilst focussing on the data.
 In the evaluation sections of the notebook we: 1. identified the popular zipcodes for any given property type; 2. identified amenities and host attributes that correlate well with revenue and 3. identified features overall that seem to be good for Airbnb business in Seattle. <br />
-The key conclusions and a more relaxed discussion of the code can be found in [this blog](https://medium.com/...) post.
+The key conclusions and a more relaxed discussion of the code can be found in [this blog](https://medium.com/@dan1707it/how-do-you-find-success-as-a-real-estate-investor-looking-into-the-airbnb-marketplace-869a3438d686) post.
 
 # Licensing, Authors, Acknowledgements
 Thanks to UDACITY, Kaggle and StackOverflow for providing insight and solution to complications encountered along the way!
