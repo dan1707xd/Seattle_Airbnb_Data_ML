@@ -17,7 +17,7 @@ They are:
 The 2 of interest for our analysis are the 'listings' and 'calendar'. For more information regarding the datasets(survey keys can be found at): https://www.kaggle.com/datasets/airbnb/seattle
 
 # Project Details
-The analysis conducted in this notebook focusses primarily on data wrangling techniques. The work done encompasses everything from dealing <br />
+The analysis conducted in this notebook focusses primarily on data wrangling techniques. The work done encompasses everything from: <br />
 1. Dealing with NaNs : when is it acceptable to drop features, impute nulls with the mode or mean depending on the feature dataset and the question we are trying to answer. How to make sure we get most value out of missing values<br />
 2. Dealing with categorical variables of varying complexities: Applying the get_dummies method to simple cases and working through intricacies where the categories are in list form <br />
 4. Dealing with severely askew features <br />
@@ -30,7 +30,7 @@ apartments might do better in a zipcode close to downtown where night life is mo
 2. What makes a good host? What are preferred host performance metrics? This second quest will basically delineate good host characteristics based on performance.
 3. In Seattle, which factors overall are good for revenue? Here, a prediction based (regression) method will be applied to model revenue. 
 Finally, the features that dominate that model will be of interest. The analysis that follows in the notebook attempts to best answer these questions dispassionately whilst focussing on the data.
-In the evaluation sections of the 
+In the evaluation sections of the notebook we: 1. identified the popular zipcodes for any given property type; 2. identified amenities and host attributes that correlate well with revenue and 3. identified features overall that seem to be good for Airbnb business in Seattle. <br />
 The key conclusions and a more relaxed discussion of the code can be found in [this blog](https://medium.com/...) post.
 
 # Licensing, Authors, Acknowledgements
